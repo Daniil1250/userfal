@@ -1,0 +1,63 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('0uaa49b580-55de4283-68d22922.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+input:not([type="submit"], [name="Title"], [name="BodySms"]){
+  background-color: transparent; 
+    border: 1.3px solid #ff00f2;
+    color: #ffffff; 
+  border-radius: 12px;
+  width: 100%;
+  max-width: 130px;
+  height: 100%;
+  max-height: 65px;
+  padding-left: 10px;
+  margin: 0 auto;
+  outline: none; 
+}
+
+input::placeholder:not([type="submit"], [name="Title"], [name="BodySms"]) {
+  color: #000000; 
+}
+
+.UserInput{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.SubmitGo{
+  width:  100%;
+  max-width: 100px;
+  height: 100%;
+  max-height: 65px;
+  margin: 0 auto;
+  background-color: transparent; 
+  border: 1.3px solid #ff00f2;
+border-radius: 12px;
+padding: 6px;
+box-shadow: inset 0 6px 5px rgba(234, 0, 255, 0.467);
+cursor: pointer;
+color: rgba(255, 255, 255, 0.405);
+}
+
+p{color: white;}
+
+.displayFalse{
+  display: none;
+}
+
+.displayTrue{
+  display: block;
+}
+
+.displayApp{
+  display: none;
+}

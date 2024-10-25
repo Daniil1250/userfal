@@ -1,0 +1,80 @@
+.Post{
+    width: 100%;
+    height: 100%;
+    max-width: 390px;
+    min-width: 390px;
+    max-height: 90px;
+    min-height: 40px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    background: none;
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.418);
+    padding: 0px 10px 20px 10px;
+    margin: 0px 15px 15px 15px;
+    overflow: hidden;
+    
+}
+
+.ComponentLeft{
+margin: 0 100px 100px 100px;
+height: 400px;
+overflow: auto;
+width: 490px;
+outline: none;
+padding: 9px 0px 9px 0px;
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.514);
+border-radius: 12px;
+}
+
+.PostNoPost{
+    width: 100%;
+    height: 100%;
+    max-width: 390px;
+    min-width: 390px;
+    max-height: 90px;
+    min-height: 40px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    background: none;
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.418);
+    padding: 20px 0px 0px 0px;
+    margin: 0px 15px 15px 15px;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 0, 49, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupContent {
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 20px;
+    border-radius: 12px;
+    z-index: 100;
+    color: white;
+  }
+  
+  .popupContentGradient {
+    padding: 90px 355px 50px 0px;
+    border-radius: 12px;
+    z-index: 0;
+    background-image: linear-gradient(130deg, rgba(255, 0, 242, 0.589), rgb(0, 109, 128) 60%);
+    position: absolute;
+    opacity: 0.5;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
